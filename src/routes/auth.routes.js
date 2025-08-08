@@ -31,8 +31,6 @@ route.post('/register', async (req, res) => {
             err: err.errmsg
         })
     }
-
-    
 })
 
 module.exports = route
